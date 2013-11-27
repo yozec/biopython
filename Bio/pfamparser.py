@@ -5,7 +5,7 @@ from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
 
 if len(sys.argv)<3:
-	print "\n\t**Pfampars take 2 arguments: pfamseq.move i swisspfam**\n\t**You can download it from ftp://ftp.sanger.ac.uk/pub/databases/Pfam/releases/ **\n\t**After You choosen Pfam version, you sholud download pfamseq.gz and swisspfam.gz **\n"
+	print "\n\t**Pfamparser takes 2 arguments: pfamseq.move i swisspfam**\n\t**You can download it from ftp://ftp.sanger.ac.uk/pub/databases/Pfam/releases/ **\n\t**After You choosen Pfam version, you sholud download pfamseq.gz and swisspfam.gz **\n"
 	exit(1)
 
 f_seq = open(sys.argv[1])
